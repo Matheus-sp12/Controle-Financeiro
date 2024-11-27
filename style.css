@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-size: 18px;
+
+}
+
+.linhas {
+    width: 10%;
+    margin: 0 auto;
+    padding: 15px 0 5px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    background-color: rgb(253, 182, 88);
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;   
+}
+
+button:hover {
+    background-color: rgb(245, 188, 113);
+}
